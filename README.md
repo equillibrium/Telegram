@@ -14,7 +14,7 @@ How to use it:
 2. Get yourself a Telegram bot using @BotFather inside Telegram
 3. Get your Bot API token from @BotFather
 4. Create a goup or channel or use existing chats to get your messages.
-5. Get you chat, group or channel ID using this guide: https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id#:~:text=Go%20to%20the%20group%2C%20click,dummy%20message%20to%20the%20bot.&text=4%2D%20Look%20for%20%22chat%22,(with%20the%20negative%20sign).
+5. Get you chat, group or channel ID using [this guide](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id#:~:text=Go%20to%20the%20group%2C%20click,dummy%20message%20to%20the%20bot.&text=4%2D%20Look%20for%20%22chat%22,(with%20the%20negative%20sign))
 6. Use Send-TLGMessage script with the parameters that you've got above.
 # Script parameters
 
