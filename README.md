@@ -20,4 +20,4 @@ How to use it:
 Install-Script -Name "Send-TLGMessage" -Force
 # Script parameters
 Text - enter text to send. This Value can be piped from another command, like 
-(gwmi win32_computersystemproduct).IdentifyingNumber | Send-TLGMessage -
+```(gwmi win32_computersystemproduct).IdentifyingNumber | Send-TLGMessage -RecieverID ID -BotToken TOKEN ```
