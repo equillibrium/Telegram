@@ -19,6 +19,31 @@ How to use it:
 6. Use Send-TLGMessage script with the parameters that you've got above:
 Install-Script -Name "Send-TLGMessage" -Force
 # Script parameters
-Text - enter text to send. This Value can be piped from another command, like:
+## Text
+Enter text to send. This Value can be piped from another command, like:
 
 ```(gwmi win32_computersystemproduct).IdentifyingNumber | Send-TLGMessage -RecieverID ID -BotToken TOKEN ```
+
+## RecieverID
+Enter a Telgram chat, group or channel ID. Use [this guide](https://stackoverflow.com/questions/32423837/telegram-bot-how-to-get-a-group-chat-id#:~:text=Go%20to%20the%20group%2C%20click,dummy%20message%20to%20the%20bot.&text=4%2D%20Look%20for%20%22chat%22,(with%20the%20negative%20sign)) to find the ID
+
+## BotToken
+Get you bot token from [@BotFather](https://t.me/BotFather), follow their guide
+
+## DisableNotification
+If you add that parameter to a script, the message will be sent without sound notification (silently).
+
+## UseProxy
+If you add that parameter to a script, yuo can specify Telegram HTTP proxy settings, if Telegram servers are not directly accessable in your country
+
+## ProxyAddress
+Enter proxy address ie https://tlg.proxy.com or 22.344.556.123
+
+## ProxyPort
+Enter proxy port i.e. 1234
+
+## ProxyUserName
+Enter user name for proxy server authentication
+
+## ProxyPassword
+Enter password for proxy server authentication
