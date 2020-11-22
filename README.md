@@ -19,5 +19,6 @@ How to use it:
 6. Use Send-TLGMessage script with the parameters that you've got above:
 Install-Script -Name "Send-TLGMessage" -Force
 # Script parameters
-Text - enter text to send. This Value can be piped from another command, like 
+Text - enter text to send. This Value can be piped from another command, like:
+
 ```(gwmi win32_computersystemproduct).IdentifyingNumber | Send-TLGMessage -RecieverID ID -BotToken TOKEN ```
