@@ -3,8 +3,9 @@ Powershell tools for Telegram Messenger
 # Sponsor the project
 If any of the scripts that I have created helped you, please consider donating to support the work.
 Don't hesitate to request any features or ask for an advice on implementing the tools that I provide.
-Any amount helps my projects a lot! Thanks you very much!
-# [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/equillibrium45)
+Any amount helps my projects a lot! Thank you very much!
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/paypalme/equillibrium45)
 
 # Sent-TLGMessage How-to-use
 This script lets you send a message using Telegram - fast, cool and secure messenger.
